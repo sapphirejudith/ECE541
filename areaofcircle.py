@@ -4,7 +4,7 @@ print("Area of Circle Calculator")
 while True:
     radius = int(input("Enter Radius "))
 
-    area = 2 * 3.142 * radius
+    area = 3.142 * (radius**2)
 
     print("Area of the circle =", round(area, 2))
     print("Would you like to perform another operation?")
